@@ -17,7 +17,7 @@ body { margin: 0; padding: 0; }
 	mapboxgl.accessToken = 'pk.eyJ1IjoiY2hhZW5vbWVsZXMiLCJhIjoiY2t1cTh6cWt5NHN2ajJubzh4cTljMmw0aCJ9.gAmjSEvK8RwcJGyzzISukQ';
 const map = new mapboxgl.Map({
 container: 'map', // container ID
-style: 'mapbox://styles/mapbox/streets-v11', // style URL
+style: 'mapbox://styles/chaenomeles/ckurqhuwb0ch218pektzgimu9', // style URL
 center: [-74.5, 40], // starting position [lng, lat]
 zoom: 9 // starting zoom
 });
@@ -25,3 +25,4 @@ zoom: 9 // starting zoom
  
 </body>
 </html>
+
